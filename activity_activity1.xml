@@ -1,0 +1,31 @@
+ maven{
+            url "https://maven.google.com"
+        }
+
+------------------------------------------------------------------------------------
+
+jetbrains
+
+kotlin   
+......................................................
+for kotlin project
+
+ctrl+shift+A
+
+enter action 
+convert java file to kotlin
+
+------------------------------------
+
+hellome.setOnclicklistner{ Toast("hello")}
+app.gradle file edit
+
+we have too add
+apply plugin 'kotlin-android-extensions'
+
+
+dependencies
+
+github.com/kotlin/anko
+
+compile 'org.jetbrains.anko:anko-commons:0.10.0'
